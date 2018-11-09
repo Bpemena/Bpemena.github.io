@@ -73,13 +73,10 @@ body {
 	background-color: #191C24;
 }
 .menuBlock a:hover {
-	
 	background-color: #2A2D37;
-	color:#808592;
 }
 .menuBlock a:active {
-	background-color: red;/*проверка*/
-
+	color:#808592;
 }
 /*--------- Элементы правого контейнера ---------*/
 .header {
