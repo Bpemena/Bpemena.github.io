@@ -1,0 +1,67 @@
+/*========= Media =========*/
+@media only screen and (max-width: 768px){
+	
+	.mainConteiner {
+		margin:10px 0px 0px 0px;
+		height: 100%;
+	}
+	.rightColumn {
+		width: 100%;
+	}
+	#footer-text, #header-text {
+		width: 96%;
+	}
+	
+	#q123 {
+		width:96%;
+	}
+}
+/*========================================*/
+@media only screen and (max-width: 480px){
+	.mainConteiner {
+		-webkit-flex-direction: column;
+	  		-ms-flex-direction: column;
+	        	flex-direction: column;
+		margin:0px;
+		height: 100%;width: 100%;
+	}
+	.emptyBlock {
+		display: none;
+	}
+	.leftColumn {
+		width: 100%;
+		height: 378px;
+	}
+	.rightColumn {
+		width: 100%;
+	}
+	.sitebar {
+		height: 805px;
+	}
+	#rightCard {
+		margin-top: 5px;
+		padding-top: 30px;
+		clear: both;
+		top: 0px;
+		left: 0px;
+	}
+	#button {
+		margin-top: 541px;
+	}
+}
+/*========================================*/
+@media only screen and (max-width: 320px){
+
+	#footer-text, #header-text {
+		font-size: 10px
+	}
+	#leftCard, #rightCard {
+		width: 100%;
+	}
+	#code {
+		font-size: 10px;
+	}
+	#CVVCode {
+		height: 25px;
+	}
+}

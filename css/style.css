@@ -1,0 +1,208 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+	background-color: #101114;
+}
+.err{
+	border: 1px solid red;
+}
+/*--------- Главный контейнер ---------*/
+.mainConteiner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin: 86px auto;
+	height: 1018px; width: 957px;
+}
+/*--------- Левый контейнер ---------*/
+.leftColumn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	  	-ms-flex-direction: column;
+	        flex-direction: column;
+	height: 540px; width: 33.333%;
+	background-color: #1F2229;
+	border-right: solid 2px #101114;
+}
+/*--------- Правый контейнер ---------*/
+.rightColumn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	  	-ms-flex-direction: column;
+	        flex-direction: column;
+	height: 100%; width: 66.666%;
+}
+/*--------- Элементы левого контейнера ---------*/
+.emptyBlock {
+	height: 162px; width: 100%;
+	border-bottom: solid 1px #101114;
+}
+.menuBlock {
+	height: 378px;
+	display: flex;
+	-webkit-flex-direction: column;
+	  	-ms-flex-direction: column;
+	        flex-direction: column;
+}
+.menuBlock a {
+	display: block;
+	flex-grow: 1;
+	padding: 25px 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: OpenSans-Bold;
+}
+
+.link2 {
+	background-color: #2A2D37;
+}
+.link4, .link5 {
+	background-color: #191C24;
+}
+.menuBlock a:hover {
+	
+	background-color: #2A2D37;
+	color:#808592;
+}
+.menuBlock a:active {
+	background-color: red;/*проверка*/
+
+}
+/*--------- Элементы правого контейнера ---------*/
+.header {
+	background-color: #00AEEF;
+	height: 162px; width: 100%;
+	padding-left: 25px;
+	padding-right: 50px;
+}
+
+.header div {
+	color: #FFFFFF;
+}
+
+.sitebar {
+	height: 569px; width: 100%;
+	background-color: #F7F8F8;
+	padding: 45px 0px 0px 25px;
+}
+
+.footer {
+	height: 262px; width: 100%;
+	background-color: #373C43;
+	padding: 25px 0px 0px 25px;
+}
+.textInCards {
+	color: #8494AB;
+	margin-bottom: 5px;
+}
+h1 {
+	font-family: OpenSans-Bold;
+}
+/*--------- Идентификаторы правого контейнера ---------*/
+#footer-text {
+	height: 260px; width: 570px;
+	color: #7F8591;
+	font-size: 0.8em;
+}
+#payment{
+	margin-bottom: 40px;
+}
+#paymentInformation {
+	color: #BEC6CF;
+	white-space: all;
+	margin-bottom: 22px;
+
+}
+#accountNumber {
+	color: #BEC6CF;
+	margin-bottom: 10px;
+	margin-right: 60px;
+}
+#amountOfPayment {
+	color: #BEC6CF;
+	margin-right: 38px;
+}
+#summ, #number {
+	color: #535864;
+}
+#number, #accountNumber, #summ, #amountOfPayment {
+	display: inline-block;
+}
+#data {
+	color: #383D43;
+	
+	margin-bottom: 25px;
+	font-family: OpenSans-Bold;
+}
+#leftCard, #rightCard {
+	position: relative;
+	height: 236px; width: 350px;
+	background-color: #F7F8F8;
+	border:solid 1px #E4E9EE;
+	border-radius: 15px;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+#leftCard {
+	z-index: 2;
+}
+#rightCard {
+	padding-top: 30px;
+	z-index: 1;
+	top: -216px;
+	left: 194px;
+}
+#CardNumber, #validity {
+	margin-bottom: 15px;
+}
+#strip {
+	background-color: #E4E9EE;
+	height: 50px;width: 100%;
+}
+#code {
+	margin-top: 20px;
+	margin-left: 180px;
+	color: #8494AB;
+	margin-bottom: 2px;
+}
+#CVVCode {
+	width: 85%; height: 42px;
+}
+#button {
+
+	top: 0px;
+	margin-top: 305px;
+	position: absolute;
+	width: 173px;
+	height: 40px;
+	background: linear-gradient(180deg, #9CC607, #83A40C);
+	border-radius: 5px;
+	font-size: 1em;
+	color: #FFFFFF;
+	border: 0 none;
+}
+#name {
+	width: 91.42857142857143%;
+	height: 42px; 
+	margin-top: 10px;
+	padding-left: 10px; 
+	color: #BEC6CF;
+}
+#q123 {
+	position: relative;
+	height: 564px;
+}
+/*--------- Конец кода ---------*/

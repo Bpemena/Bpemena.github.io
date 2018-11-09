@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Main page</title>
+	<link rel="stylesheet" href="css/style.css"> <!-- Подключение главных стилей -->
+	<link rel="stylesheet" href="css/normalize.css"> <!-- Подключение нормалайз -->
+	<link rel="stylesheet" href="css/fonts.css"> <!-- Подключение шрифтов -->
+	<link rel="stylesheet" href="css/media.css"> <!-- Подключение медиа -->
+	<link rel="shortcut icon" href="img/Internet.png" type="image/x-icon"> <!-- Иконка сайта -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!-- Начало кода -->
+		<!-- Главный контейнер -->
+		<div class="mainConteiner">
+			<!-- Левая колонка -->
+			<div class="leftColumn">
+				<div class="emptyBlock"></div>
+				<div class="menuBlock">
+					<a href="#" class="link1">Первая ссыка</a>
+					<a href="#" class="link2" >Вторая ссылка</a>
+					<a href="#" class="link3">Третья ссылка</a>
+					<a href="#" class="link4">Личный кабинет</a>
+					<a href="#" class="link5">Выйти</a>
+				</div>
+			</div>
+			<!-- Правая колонка -->
+			<div class="rightColumn">
+				<!-- "header" правой колонки -->
+				<div class="header">
+					<div id="header-text">
+						<h1>Заголовок страницы</h1>
+						В отличие от пылевого и ионного хвостов, направление поступает в лимногляциальный часовой угол
+					</div>
+				</div>
+				<!-- "sitebar" правой колонки -->
+				<div class="sitebar">
+					<div class="form">
+						<div id="payment">
+							<div id="paymentInformation">Информация об оплате:</div>
+							<div id="accountNumber">Номер счета:</div><div id="number">87123658716587</div><br>
+							<div id="amountOfPayment">Сумма платежа:</div><div id="summ">100р.</div>
+						</div>
+						<!-- Данные банковской карты -->
+						<div id="q123">
+							<div id="data">Данные банковской карты</div>
+							<!-- Форма -->
+							<form id="form">
+							<!-- Левая карта(передняя сторона) -->
+							<div id="leftCard">
+								<!-- Ввод номера карты -->
+								<div id="CardNumber">
+										<label class="textInCards">Номер карты</label><br>
+										<input id="n1" type="text" name="n1" title="Код" placeholder="XXXX" style="height: 30px; width: 55px; text-align: center;">
+										<input id="n2" type="text" name="n2" title="Код" placeholder="XXXX" style="height: 30px; width: 55px; text-align: center;">
+										<input id="n3" type="text" name="n3" title="Код" placeholder="XXXX" style="height: 30px; width: 55px; text-align: center;">
+										<input id="n4" type="text" name="n4" title="Код" placeholder="XXXX" style="height: 30px; width: 55px; text-align: center;">
+								</div>
+								<!-- конец -->
+								<!-- Выбор даты и держатель карты -->
+								<div id="validity">
+									<div class="textInCards">Срок действия</div>
+										<select id="month" style="width: 70px;  color: #373C43; font-size: 16pt; padding-left: 12px;"></select>
+										<select id="year" style="width: 86px;  color: #373C43; font-size: 16pt; padding-left: 12px;"></select>
+								</div>
+								<input id="name" type="text" name="cardOwner" placeholder="Держатель карты" title="Имя и фамилия">
+								<!-- конец -->
+							</div>
+							<!-- конец -->
+							<!-- Правая карта(задняя сторона) -->
+							<div id="rightCard">
+								<div id="strip"></div>
+								<div id="code">
+									<label for="inputCode">Код CVV2/CVC2</label>
+									<input id="CVVCode" type="text" name="inputCode" title="Введите CVV код" style="">
+								</div>
+							</div>
+							<!-- Кнопка оплатить -->
+								<input id="button" type="button" name="enter" onclick="valid(document.getElementById('form'))" value="Оплатить">
+							<!-- конец кнопки -->
+							</form>
+							<!-- конец формы -->
+						</div>
+						<!-- Конец данных банковской карты -->
+					</div>
+				</div>
+				<!-- "footer" правой колонки -->
+				<div class="footer">
+					<div id="footer-text">Исходя из астатической системы координат Булгакова, соединение стабильно. Краевая часть артезианского бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. Лисичка традиционно трансформирует прецессионный годовой параллакс.<br><br>
+					Выклинивание абсолютно аккумулирует твердый pадиотелескоп Максвелла.<br><br>
+					Алмаз слагает горст. Делювий длительно колеблет лазерный подвижный объект.<br><br>
+					Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. Проекция вертикально дает уходящий диабаз. Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий волчок, что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности кристаллических пород, но и проявлениями долее поздней блоковой тектоники. Засветка неба заставляет иначе взглянуть на то, что такое волчок.</div>
+				</div>
+				<!-- конец  -->
+			</div>
+			<!-- Конец правой колонки -->
+		</div>
+		<!-- конец главного контейнера -->
+<!-- Конец тела -->
+<!-- Дальше скрипты -->
+	<script src="js/main.js"></script>
+</body>
+</html>
